@@ -1,8 +1,7 @@
 #!/bin/sh
 
 # this pack requires mecab and mecab-ipadic
-
-if [ -f $1/.linuxbrew/bin/mecab ]; then
+if [ -f $1/.apt/usr/bin/mecab ]; then
   echo "mecab-ipadic-NEologd"
   exit 0
 else
